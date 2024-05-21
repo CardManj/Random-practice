@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calduladora.js"></script>
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <h1>IMC calculadora</h1>
+    <form action="" method="post" id="imcform">
+        <div class="input">
+            <label for="">Digite su peso en Kg: </label>
+            <input type="text" id="peso" placeholder="">
+        </div>
+        <div class="input">
+            <label for="">Digite su altura en metros: </label>
+            <input type="text" id="altura" placeholder="">
+        </div>
+        <input type="button" class="boton" value="calcular" onclick="calcular()">
+        <p id="texto"></p>
+    </form>
+</body>
+</html>
